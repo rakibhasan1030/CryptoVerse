@@ -1,7 +1,5 @@
-package rakib.hasan.cryptoverse.data.remote.dto.coin_details_dto
+package rakib.hasan.cryptoverse.data.remote.dto.coin_detail_dto
 
-
-import com.google.gson.annotations.SerializedName
 
 data class Stats(
     val contributors: Int,

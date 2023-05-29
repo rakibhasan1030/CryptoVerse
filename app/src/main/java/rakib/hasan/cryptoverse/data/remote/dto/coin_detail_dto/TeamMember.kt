@@ -1,4 +1,4 @@
-package rakib.hasan.cryptoverse.data.remote.dto.coin_details_dto
+package rakib.hasan.cryptoverse.data.remote.dto.coin_detail_dto
 
 
 data class TeamMember(
