@@ -1,4 +1,4 @@
-package rakib.hasan.cryptoverse.domain.model.coin_detail
+package rakib.hasan.cryptoverse.domain.model
 
 import rakib.hasan.cryptoverse.data.remote.dto.coin_detail_dto.TeamMember
 

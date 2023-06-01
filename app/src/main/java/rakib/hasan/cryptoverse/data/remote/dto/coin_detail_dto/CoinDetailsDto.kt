@@ -2,7 +2,7 @@ package rakib.hasan.cryptoverse.data.remote.dto.coin_detail_dto
 
 
 import com.google.gson.annotations.SerializedName
-import rakib.hasan.cryptoverse.domain.model.coin_detail.CoinDetail
+import rakib.hasan.cryptoverse.domain.model.CoinDetail
 
 data class CoinDetailsDto(
     val description: String,
@@ -43,7 +43,7 @@ data class CoinDetailsDto(
     val whitepaper: Whitepaper
 )
 
-fun CoinDetailsDto.toCoinDetail(): CoinDetail{
+fun CoinDetailsDto.toCoinDetail(): CoinDetail {
     return CoinDetail(
         coinId = id,
         name = name,
