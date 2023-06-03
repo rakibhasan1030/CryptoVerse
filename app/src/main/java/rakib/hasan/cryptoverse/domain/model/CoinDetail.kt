@@ -5,6 +5,7 @@ import rakib.hasan.cryptoverse.data.remote.dto.coin_detail_dto.TeamMember
 data class CoinDetail(
     val coinId: String,
     val name: String,
+    val rank: Int,
     val description: String,
     val symbol: String,
     val isActive: Boolean,

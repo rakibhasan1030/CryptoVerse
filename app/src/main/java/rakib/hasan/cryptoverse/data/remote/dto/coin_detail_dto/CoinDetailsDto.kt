@@ -47,6 +47,7 @@ fun CoinDetailsDto.toCoinDetail(): CoinDetail {
     return CoinDetail(
         coinId = id,
         name = name,
+        rank = rank,
         description = description,
         symbol = symbol,
         isActive = isActive,
